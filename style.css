@@ -1,0 +1,214 @@
+/* Products Single Page */
+
+.upc-column {
+  float: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.upc-right {
+  width: 33%;
+}
+
+.upc-middle {
+  width: 66%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .upc-column {
+    width: 100%;
+  }
+}
+
+.page-template-single-page-no-sidebar-full-width .ewd-upcp-minimal-product {
+width:90%!important;
+margin-left:5%!important;
+display:block!important;
+}
+
+/* Home Page Events Block */
+
+.tribe-common-g-row.tribe-events-widget-events-list__event-row:last-child {
+	border-bottom:0px solid white;
+} 
+
+.tribe-common-g-row.tribe-events-widget-events-list__event-row {
+	width:100%;
+	border-bottom: 1px solid gray;
+	padding:10px 0!important;
+}
+
+.tribe-common-g-row.tribe-events-widget-events-list__event-row div.tribe-events-widget-events-list__event-date-tag, .tribe-common-g-row.tribe-events-widget-events-list__event-row img.wp-post-image.alignleft,  .tribe-common-g-row.tribe-events-widget-events-list__event-row div.tribe-events-widget-events-list__event-wrapper .tribe-common-g-col{
+	display:inline-block;
+	vertical-align: text-top;
+	padding:5px;
+	margin-right:20px;
+}
+
+.tribe-common-g-row.tribe-events-widget-events-list__event-row div.tribe-events-widget-events-list__event-wrapper.tribe-common-g-col h3.tribe-events-widget-events-list__event-title.tribe-common-h7 a.tribe-events-widget-events-list__event-title-link {
+	font-size:16pt;
+	color:darkblue!important;
+	text-transform:uppercase;
+	text-decoration:none;
+	line-height:1.2em!important;
+	margin-bottom:0px!important;
+	margin-top:1em!important;
+	padding-bottom:0px!important;
+	margin-left:20px!important;
+	display:inline-block;
+}
+
+.tribe-common-g-row.tribe-events-widget-events-list__event-row div.tribe-events-widget-events-list__event-wrapper.tribe-common-g-col h3.tribe-events-widget-events-list__event-title.tribe-common-h7 a.tribe-events-widget-events-list__event-title-link:hover {
+	text-decoration:underline;
+}
+
+.tribe-events-widget-events-list__event-datetime-wrapper {
+	line-height:0em!important;
+	margin-bottom:0px!important;
+	padding-bottom:0px!important;
+	color:darkred;
+	margin-left:20px!important;
+	margin-top:20px!important;
+}
+
+.tribe-common-g-row.tribe-events-widget-events-list__event-row img.wp-post-image.alignleft {
+	padding-right:10px;
+	position:relative;
+	top:0px;
+}
+
+/* Artisan pages */
+
+.circle-mask img {
+	border-radius:50%;
+}
+
+/* Artisan Gallery Block */
+
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-catalog-information-name {
+margin-bottom:20px;
+}
+
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow
+.ewd-upcp-catalog-display {
+width:100%;
+}
+
+.ewd-upcp-catalog-information-name {
+display:none!important;
+}
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-thumbnail-four-columns .ewd-upcp-catalog-product-thumbnail {
+width:30%;
+}
+
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-thumbnail-four-columns 
+.ewd-upcp-catalog-product-categories {
+display:none;
+}
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-thumbnail-four-columns  .ewd-upcp-catalog-product-subcategories {
+display:none;
+}
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-thumbnail-four-columns .ewd-upcp-catalog-product-tags {
+display:none;
+}
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-thumbnail-four-columns .ewd-upcp-catalog-product-image img {
+border-radius:0!important;
+}
+
+ .ewd-upcp-catalog-product-price {
+display:none!important;
+}
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-thumbnail-four-columns  .ewd-upcp-product-title-div a {
+text-decoration: none;
+} 
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow  .ewd-upcp-catalog-header-bar {
+display:none!important;
+}
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-toggle-icon-thumbnail {
+display:none!important;
+}
+
+.wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-thumbnail-four-columns  .ewd-upcp-product-title-div a:hover {
+text-decoration:underline;
+}
+
+/* Artisans Left List */
+
+body.page-id-1495 .wp-block-column-sidebar .wp-block-post.format-standard.category-artisan {
+padding:0!important;
+margin:0!important;
+border:none!important;
+font-size:16pt!important;
+}
+
+body.page-id-1495 .wp-block-post.format-standard.category-artisan h2 {
+padding:0 0 5px 10px;
+margin:0;
+border:none;
+font-size:16pt;
+}
+;ll
+body.page-id-1495 .wp-block-column-is-layout-flow h2.wp-block-heading {
+margin-bottom:20px!important;
+border-bottom:1px solid black!important;
+}
+
+
+
+/* ARtisan Header */
+
+h1.artisan-title {
+width:100%!important;
+padding:5px!important;
+margin:0px!important;
+text-align:center!important;
+}
+
+main.is-style-axton-padding-0 {
+padding-bottom:0px!important;
+margin-block-start:0px!important;
+}
+
+body.page-id-1495 .wp-block-post-template li.category-artisan {
+margin:10px 0!Important;
+padding-bottom:10px!important;
+}
+
+/* Artisan Sidebar */
+
+body.page-id-581 .wp-block-post-template li.category-artisan {
+padding:0px!important;
+margin-bottom:10px;
+border:0!important;
+}
+
+body.page-id-581 .wp-block-post-template li.category-artisan .wp-block-column.is-vertically-aligned-center.is-layout-flow.wp-block-column-is-layout-flow {
+z-index:100;
+}
+
+body.page-id-581 .wp-block-post-template li.category-artisan img {
+z-index:-1!important;
+}
+
+body.page-id-581 .wp-block-column-sidebar {
+padding-right:0px;
+}
+
+
+
