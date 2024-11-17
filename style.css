@@ -91,6 +91,9 @@ display:block!important;
 
 /* Artisan Gallery Block */
 
+.ewd-upcp-catalog-information-name h3 {
+display:none;
+}
 
 .wp-block-column.is-layout-flow.wp-block-column-is-layout-flow .ewd-upcp-catalog-information-name {
 margin-bottom:20px;
