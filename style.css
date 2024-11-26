@@ -1,6 +1,21 @@
+/* Artisan Catalog Blocks */
+
+.ewd-upcp-catalog-sidebar {
+    display: none!important;
+}
+.ewd-upcp-catalog-display {
+    width: 100% !important;
+    float: initial!important;
+    position: initial!important;
+}
+
+.ewd-upcp-catalog-information-name h3 {
+display:none;
+}
+
 /* Products Single Page */
 
-.upc-column {
+/*.upc-column {
   float: left;
 }
 
@@ -172,9 +187,7 @@ margin-bottom:20px!important;
 border-bottom:1px solid black!important;
 }
 
-
-
-/* ARtisan Header */
+/* Artisan Header */
 
 h1.artisan-title {
 width:100%!important;
@@ -213,5 +226,12 @@ body.page-id-581 .wp-block-column-sidebar {
 padding-right:0px;
 }
 
+/* Product Catalog Pages */
 
+.ewd-upcp-catalog-product-thumbnail {
+    margin-right:10px!important;
+    }
 
+.ewd-upcp-catalog-category-heading, .ewd-upcp-catalog-category-heading-image-div {
+width:93%!important;
+}
